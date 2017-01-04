@@ -10,6 +10,8 @@ document.getElementById("city")
     }
 });
 
+//comment3
+
 String.prototype.capitalizeFirstLetter = function() {
     var wordsArray = this.split(' ');
     console.log(wordsArray);
