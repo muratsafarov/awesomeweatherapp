@@ -1,0 +1,95 @@
+/* Styles go here */
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #222222;
+    font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+.header {
+    background-color: none;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: none;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#search {
+    font-size: 18px;
+}
+
+#search label {
+    font-weight: bold;
+}
+
+#search input {
+    font-size: inherit;
+    font-family: inherit;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#search button {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #222222;
+    cursor: pointer;
+    color: white;
+    margin-top: 25px;
+    margin-left: 10px;
+
+}
+
+#search button:hover {
+    background-color: #333333;
+}
+
+#weather {
+    padding: 30px;
+    border: 0px solid #ccc;
+    width: auto;
+    margin: 30px 10px 10px 10px;
+    background-color: none;
+    -webkit-box-shadow: 2px 0px 34px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 34px -15px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 34px -15px rgba(0,0,0,0.75);
+    color: #222222;
+    box-sizing: border-box;
+    display: none;
+    font-weight: bold;
+}
+
+#weather h1 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#weatherDescription {
+    float: left;
+}
+
+#weatherTemperature {
+    float: right;
+}
+
+#load {
+    padding: auto;
+    margin: 50px auto;
+    display: none;
+    text-align = center;
+} 
