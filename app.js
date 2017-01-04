@@ -11,6 +11,7 @@ document.getElementById("city")
 });
 
 //comment3
+//comment4
 
 String.prototype.capitalizeFirstLetter = function() {
     var wordsArray = this.split(' ');
