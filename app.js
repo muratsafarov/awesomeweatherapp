@@ -10,6 +10,8 @@ document.getElementById("city")
     }
 });
 
+// comment
+
 String.prototype.capitalizeFirstLetter = function() {
     var wordsArray = this.split(' ');
     console.log(wordsArray);
@@ -18,7 +20,7 @@ String.prototype.capitalizeFirstLetter = function() {
      }
     console.log(wordsArray);
     return wordsArray.toString().replace(',', ' ');
-} 
+};
 
 function searchWeather() {
   loadText.style.display = 'block';
@@ -45,7 +47,7 @@ function searchWeather() {
       if (http.readyState !== http.DONE) {
       loadText.textContent = 'ERROR';
     }}, 3000);
-    }
+    };
   http.send();
 }
 
